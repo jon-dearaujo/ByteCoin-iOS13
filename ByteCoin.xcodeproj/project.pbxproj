@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EB8944028160502007055DF /* CoinManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB8943F28160502007055DF /* CoinManagerDelegate.swift */; };
+		1EB894422816054C007055DF /* CoinPriceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB894412816054C007055DF /* CoinPriceData.swift */; };
 		ADA8AC092329367100626376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC082329367100626376 /* AppDelegate.swift */; };
 		ADA8AC0B2329367100626376 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC0A2329367100626376 /* SceneDelegate.swift */; };
 		ADA8AC0D2329367100626376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC0C2329367100626376 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EB8943F28160502007055DF /* CoinManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManagerDelegate.swift; sourceTree = "<group>"; };
+		1EB894412816054C007055DF /* CoinPriceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPriceData.swift; sourceTree = "<group>"; };
 		ADA8AC052329367100626376 /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA8AC082329367100626376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA8AC0A2329367100626376 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				ADA8AC1F2329398300626376 /* CoinManager.swift */,
+				1EB8943F28160502007055DF /* CoinManagerDelegate.swift */,
+				1EB894412816054C007055DF /* CoinPriceData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,8 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA8AC202329398300626376 /* CoinManager.swift in Sources */,
+				1EB8944028160502007055DF /* CoinManagerDelegate.swift in Sources */,
 				ADA8AC0D2329367100626376 /* ViewController.swift in Sources */,
 				ADA8AC092329367100626376 /* AppDelegate.swift in Sources */,
+				1EB894422816054C007055DF /* CoinPriceData.swift in Sources */,
 				ADA8AC0B2329367100626376 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
